@@ -151,11 +151,11 @@ height: 800px;
 
 
 .thirdSection {
-    max-width: 1200px;
-    background:url(/assets/IMG_1334_72dpi_RGB_\ 1.png);
-    background-repeat: no-repeat;
+    background-image: linear-gradient( 115deg, rgba(140, 79, 42, 0.3), rgba(140, 79, 42, 0.3) ), url(../assets/IMG_1334_72dpi_RGB_\ 1.png);
     margin: 0 auto;
     height: 666px;
+    max-width: 1200px;
+
 }
 
 .thirdSection h2 {
@@ -197,26 +197,35 @@ span{
 footer{
     max-width: 1200px;
     background-color: rgba(70, 69, 71, 1);
-    ;
     margin: 0 auto;
     height: 170px;
-}
-footer img  {
     
-    margin-left: 12%;
-    margin-top: 19px;
 }
+
+footer img  {
+width: 120px;
+height: 18px;
+ 
+}
+
 footer a{
     display: block;
     text-decoration: none;
     color:rgba(255, 255, 255, 0.4);
+    margin-top: 20px;
 }
 
 .footer-content{
     color:rgba(255, 255, 255, 0.4);
-    margin-left: 12%;
-    margin-top: 9px;
-    
+    width: 80%;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-Rigth {
+    padding: 60px;
 }
 
 
